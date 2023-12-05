@@ -1,0 +1,27 @@
+.servicesText.card {
+    height: 300px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 70px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 3px solid orange;
+}
+/* i{
+size: 30px;    
+text-align: center;
+align-items: center;
+} */
+
+#services{
+height: 750px;
+}
