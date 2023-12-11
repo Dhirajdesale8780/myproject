@@ -7,19 +7,40 @@ import Technologies from './Comonents/Technologies';
 import Footer from './Comonents/Footer';
 import About from './Comonents/About';
 import Contact from './Comonents/Contact';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import './App.css'
+
 
 function App() {
+ 
   return (
     <>
-  <Nav></Nav>
-  <Home></Home>
-  <About></About>
-  <Education></Education>
-  <Technologies></Technologies>
-  <Project></Project>
-  <Contact></Contact>
-  <Footer></Footer>
+  
+     <BrowserRouter> 
+       <Nav></Nav>
+
+   <Routes>
+    
+    <Route path="/" element={<Home />  }/>
+
+    <Route path="/About" element={<About/>}/>
+    <Route path="/Education" element={<Education/>}/>
+    <Route path="/Technology" element={<Technologies/>}/>
+    <Route path="/Project" element={<Project/>}/>
+    <Route path="/Contact" element={<Contact/>}/>
+    
+ 
+ 
+  </Routes>
+  </BrowserRouter>
+ 
+  <Footer/>
+ 
+
+
+ 
  </>
+
   );
 }
 
