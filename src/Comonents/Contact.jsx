@@ -30,7 +30,7 @@ function Contact() {
                                 <li><a href="https://www.youtube.com/@dezvengroup" target="_blank" rel="noreferrer"><i class="fa fa-youtube-square"></i></a></li>
                                 <li><a href="https://twitter.com/Dezven" target="_blank" rel="noreferrer"><i class="fa fa-twitter-square"></i></a></li>
 
-                                <li><a href="https://www.linkedin.com/company/dezvengroup/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/dezvengroup/" target="_blank" rel="noreferrer"><i class="fa fa-linkedin-square"></i></a></li>
 
                             </ul>
                         </div>
